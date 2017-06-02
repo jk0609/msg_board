@@ -1,7 +1,10 @@
-# msg-board
+# Best Message Board (Week 2 Advanced JS Project)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### By Jonathon Kang
+
+## Description
+
+Exercise in Node.JS and Ember. Practice using Ember to setup a project, connect it to a Firebase data store and establish a one-to-many relationship between two models. The site emulates a basic Q&A message board where users can post questions and get answers from other users.
 
 ## Prerequisites
 
@@ -12,45 +15,30 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Setup/Installation Requirements
+1. Clone the directory to your local machine and navigate to project root directory.
+2. Open your Node.JS terminal and run $ npm install.
+3. Run $ ember serve to initiate the directory and take it live at localhost:4200.
 
-* `git clone <repository-url>` this repository
-* `cd msg-board`
-* `npm install`
+## Technologies Used
 
-## Running / Development
+HTML/CSS
+Bootstrap
+Javascript/Node.JS
+Ember
+Bower
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+### License
 
-### Code Generators
+Copyright 2017 Jonathon Kang
 
-Make use of the many generators for code, try `ember help generate` for more details
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-### Running Tests
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Planning
-
 1. Configuration/dependencies
   * Node.js/npm
   * Ember
@@ -59,17 +47,12 @@ Specify what it takes to deploy your app.
 
 2. Layout
   * Two models, questions have a one-to-many with comments.
-  * Questions include: author, body and notes. Add and edit X
-  * Answers include: author and body. Add only X
+  * Questions include: author, body and notes. Add and edit
+  * Answers include: author and body. Add only
   * Navbar with: site name, home page link, contact link, social
-  * Routes: index X, one-question X, about, contact
-  * Components: question-tile X, new-question X, answer-tile, new-answer, update-question X
+  * Routes: index, one-question, about, contact
+  * Components: question-tile, new-question, answer-tile, new-answer, update-question
 
 3. UX/UI
   * Include and modify bootstrap/materialize/Sass etc.
   * Develop custom style
-
-5. Polish
-  * Refactor minor portion of...
-  * Delete unused...
-  * Make README awesome
