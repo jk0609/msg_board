@@ -48,3 +48,28 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## Planning
+
+1. Configuration/dependencies
+  * Node.js/npm
+  * Ember
+  * Ember-Bootstrap
+  * Emberfire
+
+2. Layout
+  * Two models, questions have a one-to-many with comments.
+  * Questions include: author, body and notes. Add and edit
+  * Answers include: author and body. Add only
+  * Navbar with: site name, home page link, contact link
+  * Routes: index, one-question,
+  * Components: question-tile, new-question, answer-tile, new-answer 
+
+3. UX/UI
+  * Include and modify bootstrap/materialize/Sass etc.
+  * Develop custom style
+
+5. Polish
+  * Refactor minor portion of...
+  * Delete unused...
+  * Make README awesome
