@@ -1,16 +1,16 @@
-<h3>{{model.question.author}}</h3>
-
-<h4>{{model.question.body}}</h4>
+<h3>Question:</h3>
+<h4><em>{{model.question.author}}</em> asks: {{model.question.body}}</h4>
 
 <h3>Notes:</h3>
 <h4>{{model.question.notes}}</h4>
 
-<ul>
-  {{#each model.question.answers as |answer|}}
-    {{answer-tile answer=answer}}
-  {{/each}}
-</ul>
-
+<h3>Answers: </h3>
+{{#each model.question.answers as |answer|}}
+  {{answer-tile answer=answer}}
+{{/each}}
+<br>
+{{new-answer newAnswer='newAnswer' question=model.question}}
+<br>
 {{update-question question=model.question updateQuestion='updateQuestion'}}
-
-<button {{action 'deleteQuestion' model.question}}>Delete Question</button>
+<br>
+<button class='btn btn-danger'{{action 'deleteQuestion' model.question}}>Delete Question</button>

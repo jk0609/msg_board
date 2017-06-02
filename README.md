@@ -62,8 +62,8 @@ Specify what it takes to deploy your app.
   * Questions include: author, body and notes. Add and edit X
   * Answers include: author and body. Add only X
   * Navbar with: site name, home page link, contact link, social
-  * Routes: index, one-question, about, contact
-  * Components: question-tile X, new-question X, answer-tile, new-answer, update-question
+  * Routes: index X, one-question X, about, contact
+  * Components: question-tile X, new-question X, answer-tile, new-answer, update-question X
 
 3. UX/UI
   * Include and modify bootstrap/materialize/Sass etc.

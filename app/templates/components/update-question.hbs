@@ -13,8 +13,8 @@
       <label for="notes">Notes</label>
       {{input value=question.notes id='notes'}}
     </div>
-    <button {{action 'updateQuestion' question}}>Submit Edits</button>
+    <button class='btn btn-info' {{action 'updateQuestion' question}}>Submit Edits</button>
   </form>
 {{else}}
-  <button {{action 'showForm'}}>Edit Question</button>
+  <button class='btn btn-info'{{action 'showForm'}}>Edit Question</button>
 {{/if}}
