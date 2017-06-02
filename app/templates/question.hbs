@@ -1,0 +1,16 @@
+<h3>{{model.question.author}}</h3>
+
+<h4>{{model.question.body}}</h4>
+
+<h3>Notes:</h3>
+<h4>{{model.question.notes}}</h4>
+
+<ul>
+  {{#each model.question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
+
+{{update-question question=model.question updateQuestion='updateQuestion'}}
+
+<button {{action 'deleteQuestion' model.question}}>Delete Question</button>
