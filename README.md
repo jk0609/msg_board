@@ -59,11 +59,11 @@ Specify what it takes to deploy your app.
 
 2. Layout
   * Two models, questions have a one-to-many with comments.
-  * Questions include: author, body and notes. Add and edit
-  * Answers include: author and body. Add only
-  * Navbar with: site name, home page link, contact link
+  * Questions include: author, body and notes. Add and edit X
+  * Answers include: author and body. Add only X
+  * Navbar with: site name, home page link, contact link, social
   * Routes: index, one-question,
-  * Components: question-tile, new-question, answer-tile, new-answer 
+  * Components: question-tile, new-question, answer-tile, new-answer
 
 3. UX/UI
   * Include and modify bootstrap/materialize/Sass etc.
